@@ -9,10 +9,13 @@ This project demonstrates how to use Google's Gemma model for color picking task
 ## Demo Visualization
 
 ### Color Prediction Results
-![Color Predictions](data:image/png;base64,)
+
+> Analyse the color code (HEX code) of the seats in the image.
+
+![Color Predictions](https://www.kaggleusercontent.com/kf/325700239/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..BmScPw1cQOcojjNODPe45Q.Uh-kY9nqOhE1Soq4z4wdO22GyIi_kos-3M3lBXG2kpzza4EJRzpMotjSyNs8HG1UpLCHvKV0YC2Ykxrp1af4IFZqJx3awOrnxPZU9-eCuyCkS6294XZvQJnd5P4WBUHvJAxN6iWEvdzzf4LV_F6v_zCnTom-viE5n7J4_QONNAw78X6ga40AlCotbbF3C7HE8p-8e5HC1DeAnozD8OR4OAIdXR3ijAP828U_-t51VQgwzikNKNmCcSBRqf6l-cLlugUhh0V4eSlQo7XbTuIBkG8yCpLRqYeEe-AFZKfzzdIl3MjcqIpvXW4XLCJWEIRGLkP2_0RLSJyZKs8LiyD6UE4NByPhYaKbSgPcQfOhbYHV5uLhT5VzsIWxvF_v5OALevnu2BBJn6_JoM1lILZykCkdimhodST9U3mWhNCscAxKkIwFIJt6_WIxJHCPCPet0WClw8XycOwYW6QHBtqpRJrzdusau0oW43RdMVETl08czmNZSzU1-mL2mvkkDMRuuKhESgFlb23JKD0Z1JtEjOVJ_NP_oAqVeCimsdWhHyr6ULflq82iCmhuXzSFd7Cz-6flsNjIutzVEptRI_I1WBwAC5J-oj82_QXk3eOpsye2AFI0B69KPJ4Kc3Ow8hGx.ns8Vktop5RIOogsmKMZoWg/__results___files/__results___8_0.png)
 
 ### Model Output Analysis
-![Model Analysis](data:image/png;base64,)
+![Model Analysis](https://www.kaggleusercontent.com/kf/325700239/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..BmScPw1cQOcojjNODPe45Q.Uh-kY9nqOhE1Soq4z4wdO22GyIi_kos-3M3lBXG2kpzza4EJRzpMotjSyNs8HG1UpLCHvKV0YC2Ykxrp1af4IFZqJx3awOrnxPZU9-eCuyCkS6294XZvQJnd5P4WBUHvJAxN6iWEvdzzf4LV_F6v_zCnTom-viE5n7J4_QONNAw78X6ga40AlCotbbF3C7HE8p-8e5HC1DeAnozD8OR4OAIdXR3ijAP828U_-t51VQgwzikNKNmCcSBRqf6l-cLlugUhh0V4eSlQo7XbTuIBkG8yCpLRqYeEe-AFZKfzzdIl3MjcqIpvXW4XLCJWEIRGLkP2_0RLSJyZKs8LiyD6UE4NByPhYaKbSgPcQfOhbYHV5uLhT5VzsIWxvF_v5OALevnu2BBJn6_JoM1lILZykCkdimhodST9U3mWhNCscAxKkIwFIJt6_WIxJHCPCPet0WClw8XycOwYW6QHBtqpRJrzdusau0oW43RdMVETl08czmNZSzU1-mL2mvkkDMRuuKhESgFlb23JKD0Z1JtEjOVJ_NP_oAqVeCimsdWhHyr6ULflq82iCmhuXzSFd7Cz-6flsNjIutzVEptRI_I1WBwAC5J-oj82_QXk3eOpsye2AFI0B69KPJ4Kc3Ow8hGx.ns8Vktop5RIOogsmKMZoWg/__results___files/__results___14_1.png)
 
 ## Getting Started
 
@@ -59,10 +62,10 @@ The demo includes visualizations of predicted colors, accuracy metrics, and comp
 
 - Kaggle account (recommended for easy setup)
 - Or local environment with:
-  - Python 3.8+
+  - Python >= 3.10
   - Jupyter Notebook
-  - transformers library
-  - torch
+  - transformers >= 4.7.0
+  - torch >= 2.4.0
   - Other dependencies as specified in notebooks
 
 ## License
